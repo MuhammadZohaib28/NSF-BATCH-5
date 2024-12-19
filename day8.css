@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+/* 
+button {
+    padding: 16px 8px 12px;
+
+    border: 5px solid red;
+    margin: 0 50%;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+}
+
+
+button:hover{
+    width: 20rem;
+    background-color: azure;
+} */
+
+
+.button-2 {
+    padding: 16px 8px 12px;
+
+    border: 5px solid red;
+    margin: 0 50%;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+}
+
+
+#button-3{
+    padding: 16px 8px 12px;
+
+    border: 5px solid red;
+    margin: 0 50%;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: rgb(16, 247, 0);
+    color: white;
+}
