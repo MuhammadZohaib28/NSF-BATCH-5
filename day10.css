@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table-css {
+    border: 2px solid rgb(151, 2, 2);
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    border-spacing: 0px;
+}
+
+.table-css tr td {
+    border: 1px solid green;
+    padding: 1rem;
+    /* background-color: rgb(163, 163, 163); */
+}
+
+
+.table-css tr th {
+
+    padding: 1rem;
+    border: 1px solid green;
+    text-align: left;
+}
+
+
+
+.table-css tr:nth-of-type(even){
+    background-color: goldenrod;
+}
+
+
+
+.table-css tr:nth-of-type(odd){
+    background-color: rgb(34, 0, 206);
+}
+
+
+
+
+
+form{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+
+}
