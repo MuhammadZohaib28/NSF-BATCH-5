@@ -126,7 +126,7 @@ img {
     border-radius: 50%;
 }
 
-.paragraph{
+.paragraph {
     font-size: 2rem;
 }
 
@@ -142,22 +142,91 @@ img {
 
 
 .main-heading {
-   
+
     font-weight: 500;
     font-style: normal;
     font-size: 4rem;
 }
 
 
-.a-tags{
+.a-tags {
     display: flex;
     gap: 2rem;
 
 
 }
 
-a > img {
-    height:  3rem;
+a>img {
+    height: 3rem;
     width: 3rem;
 }
+
+
+
+.main-section-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+    position: relative;
+}
+
+
+
+.main-section-bottom-line {
+    position: absolute;
+    width: 6px;
+    height: 100px;
+    background: linear-gradient(to bottom, violet, indigo, #001399, seagreen, #edd94c, orange, red);
+    left: 27%;
+    border-radius: 4px;
+}
+
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    gap: 4rem;
+
+
+    img {
+        height: 3rem;
+        width: 3rem;
+        animation: circle 3s linear infinite;
+    }
+
     
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.first-logo:hover {
+    height: 3rem;
+    width: 3rem;
+    animation: hover 3s linear infinite;
+}
+
+
+@keyframes hover {
+    0% {
+        transform: rotate(0deg);
+        /* background-color: red; */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* background-color: red; */
+    }
+}
