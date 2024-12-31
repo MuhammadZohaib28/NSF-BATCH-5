@@ -12,7 +12,7 @@ console.log(10 / 5)
 console.log("Hello, My name is Muhammad Zohaib and I am 24 Years old.")
 
 
-var userName = "Ubaidullah" 
+var userName = "Ubaidullah"
 var userAge = 18 + 1
 
 
