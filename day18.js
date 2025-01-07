@@ -41,12 +41,14 @@ for(let name of names){
 
 let userAge = prompt("Please enter your age");
 
-
 if(userAge >= 18){
     console.log("User is eligible for CNIC")
 } else {
     console.log(`User is not eligible for CNIC, because user age is ${userAge} and you are underage`)
 }
+
+
+
 
 
 
