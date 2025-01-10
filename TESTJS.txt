@@ -1,0 +1,43 @@
+Question 1: Loops in JavaScript
+Write a for loop that iterates through an array of numbers and prints only the even numbers.
+Use the following array:
+
+const numbers = [3, 8, 11, 14, 22, 29];
+
+
+
+
+
+
+
+Question 2: IF-ELSE Statement
+Write an if-else statement that checks if a number is positive, negative, or zero. Print the appropriate message for each case.
+Assume the number is stored in a variable num.
+
+Example Output:
+If num = 5, print "Positive".
+If num = -3, print "Negative".
+If num = 0, print "Zero".
+
+
+
+
+
+
+
+
+Question 3: Array of Objects
+Given the following array of objects:
+const products = [
+  { name: "Laptop", price: 1200, inStock: true },
+  { name: "Mouse", price: 25, inStock: false },
+  { name: "Keyboard", price: 60, inStock: true },
+  { name: "Monitor", price: 300, inStock: false }
+];
+
+Write a loop that calculates and prints the total price of all products that are in stock.
+Expected Output:
+Total price of in-stock products: 1260
+
+
+
